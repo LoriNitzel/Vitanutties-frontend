@@ -1,8 +1,8 @@
-app.controller('templateController', [templateController]);
+app.controller('vitaController', [vitaController]);
 
-function templateController($scope){
+function vitaController($scope){
 
   var vm = this;
 
-  vm.title = 'Template APP!'
+  vm.title = 'Vitanutties!'
 }
